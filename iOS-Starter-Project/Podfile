@@ -7,7 +7,12 @@ use_frameworks!
 # Pods for Ecommerce
 
 def commonPod
-    pod 'ws'
+
+pod 'RxCocoa'
+pod "RxSwiftExt"
+pod 'RxFlow'
+pod 'RxDataSources'
+pod "RxAnimated"
 end
 
 target 'iOS-Starter-Project' do
